@@ -1,5 +1,5 @@
 {
-  "name": "Cin City Running Group",
+  "name": "cin-city-running-group",
   "private": true,
   "description": "Website for Mason, OH Running Group",
   "version": "0.1.0",
@@ -45,7 +45,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "npm run build",
+    "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
