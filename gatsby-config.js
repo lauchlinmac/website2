@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Cin City Running Group`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Lauchlin MacGregor`,
+      summary: `Head of CCRG`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    description: `Running Group in Mason, OH`,
+    siteUrl: `https://run.cincity.run/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `cincityrun`,
     },
   },
   plugins: [
