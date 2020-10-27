@@ -57,8 +57,8 @@
   --color-primary: #ffd900;
   --color-text: #ce9700;
   --color-text-light: #4f5969;
-  --color-heading: #1a202c;
-  --color-heading-black: black;
+  --color-heading: #f8f406;
+  --color-heading-black: rgb(255, 208, 0);
   --color-accent: #d1dce5;
 }
 
