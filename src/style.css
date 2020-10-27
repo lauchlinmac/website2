@@ -259,7 +259,8 @@ a:focus {
   font-size: var(--fontSize-7);
   margin: 0;
   text-decoration: underline overline;
-  text-decoration-thickness: 2px;
+  text-decoration-thickness: 4px;
+  transform: skew(-20deg, -5deg);
   
 }
 
