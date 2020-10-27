@@ -54,8 +54,8 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #c00000;
-  --color-text: #530000;
+  --color-primary: #ffd900;
+  --color-text: #ce9700;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
@@ -81,7 +81,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
-  background-color: yellow;
+  background-color: rgb(165, 5, 5);
 }
 
 footer {
