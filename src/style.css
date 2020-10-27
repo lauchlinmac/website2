@@ -54,8 +54,8 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-primary: #c00000;
+  --color-text: #f1c500;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
@@ -257,6 +257,8 @@ a:focus {
 .main-heading {
   font-size: var(--fontSize-7);
   margin: 0;
+  text-decoration: underline overline;
+  
 }
 
 .post-list-item {
