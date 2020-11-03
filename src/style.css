@@ -27,7 +27,7 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  --fontFamily-sans: "Trebuchet MS",Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
@@ -263,8 +263,10 @@ a:focus {
   text-decoration: underline overline;
   text-decoration-thickness: 4px;
   transform: skew(-20deg, -5deg);
-  
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
 
 .post-list-item {
   margin-bottom: var(--spacing-8);
@@ -294,7 +296,6 @@ a:focus {
 }
 
 .bio {
-  display: flex;
   margin-bottom: var(--spacing-16);
 }
 
@@ -337,4 +338,25 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+ ul.schedule li{
+  display:inline-block;
+  float:left;
+  vertical-align: top;
+  width: 50%;
+ }
+
+
+.schedule ul{
+  list-style: none;
+  margin:0;
+  padding: 0;
+}
+.day{
+  background-color: lightgrey;
+  color: black;
+}
+
+.item{
+  background: rgb(116, 52, 52);
 }

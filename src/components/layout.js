@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import Navbar from './navbar'
+import Schedule from './schedule'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -25,6 +26,7 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <Navbar />
+      <Schedule />
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with
